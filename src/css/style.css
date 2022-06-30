@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@200;400;600&display=swap');
+
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background-image: url("../img/ny.jpg");
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Trispace', sans-serif;    
+    margin: 0;
+    margin-top: 10rem;
+}
+
+#menu {
+    list-style: circle;
+    cursor: pointer;
+}
+
+
+h1 {
+    font-weight:normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+.countdown-container {
+    display:flex;
+}
+
+#date {
+    margin-top:5rem;
+}
+
+.countdown {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: top;
+    min-height:100vh;
+}
+
+.big-text {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    
+}
+
+.countdown-el {
+    text-align:center;
+}
+
+.countdown-el span {
+    font-size:1.5rem;
+}
+
+input[type="date"] {
+    background: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: none;
+}
+
+#date button {
+    background: local;
+    font-size: 1.5rem;
+    
+}
+
+#stopwatch {
+    margin-top: 3rem;
+}
+
+#stopwatch button {
+    font-size: 3rem;
+    padding: 1.5rem;
+    background:local;
+    border-radius: 20px;
+}
+
+.none {
+    display: none;
+}
+
+
